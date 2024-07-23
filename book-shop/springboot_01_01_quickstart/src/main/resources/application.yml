@@ -1,0 +1,32 @@
+#server:
+#  port: 80
+spring:
+  main:
+    banner-mode: off
+  #2.配置数据库相关连接信息
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://39.106.59.156:3306/book-shop?serverTimezone=UTC
+      username: maple
+      password: a>LTqRo:S28x
+      #root 123456 localhost:3306
+
+#  thymeleaf:
+#    mode: HTML
+#    suffix: .html
+#    cache: false
+#    prefix: classpath:/static/pages/
+
+#  mvc:
+#    servlet:
+#      load-on-startup: 1
+
+# MP 配置
+mybatis-plus:
+  type-enums-package: com.bjbss.bbcsupport.domain
+  configuration:
+    default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+

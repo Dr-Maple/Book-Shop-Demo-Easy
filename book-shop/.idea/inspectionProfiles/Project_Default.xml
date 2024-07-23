@@ -1,0 +1,70 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="v-loading" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownBooleanAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <myValues>
+        <item value="@tap" />
+        <item value="@tap.stop" />
+        <item value="@tap.prevent" />
+        <item value="@tap.once" />
+        <item value="@click" />
+        <item value="@click.stop" />
+        <item value="@click.prevent" />
+        <item value="@click.once" />
+        <item value="@change" />
+        <item value="@change.lazy" />
+        <item value="@change.number" />
+        <item value="@change.trim" />
+        <item value="v-model" />
+        <item value="v-for" />
+        <item value="v-text" />
+        <item value="v-html" />
+        <item value="v-if" />
+        <item value="v-else-if" />
+        <item value="v-else" />
+        <item value="v-pre" />
+        <item value="v-once" />
+        <item value="v-bind" />
+        <item value="scoped" />
+        <item value="@keyup.enter" />
+        <item value=":class" />
+        <item value=":style" />
+        <item value="v-show" />
+        <item value=":key" />
+        <item value="@keyup" />
+        <item value="@submit" />
+        <item value="@submit.prevent" />
+        <item value="@mouseenter" />
+        <item value="@mouseleave" />
+        <item value="@mouseout" />
+        <item value="@mouseover" />
+      </myValues>
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="el-form" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
